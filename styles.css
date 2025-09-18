@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+  font-size: 1em;
+  }
+
+body{
+   background-color: rgb(19, 17, 34);
+   background-image: url(imagenes_tbmovies/trama_relojj.png);
+   background-repeat: repeat;
+  }
+
+#banner {
+  background-image: url(imagenes_tbmovies/banner/banner_celular.jpg );
+  height: 60vw;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ver_pelicula {
+  padding: 3%;
+  background-color: rgba(194, 228, 169, 0.786);
+  color: rgb(39, 35, 72);
+  text-decoration: underline;
+  font-size: 0.7em;
+  border-radius: 10px;
+}
+
+.titulos_secciones {
+  margin: 5%;
+  font-family: "Mountains of Christmas", serif;
+  font-style: normal;
+  font-size: 2em;
+  color: rgb(194, 228, 169);
+}
+
+.titulo_personajes {
+  margin-top:5%;
+  font-family: "Mountains of Christmas", serif;
+  font-style: normal;
+  font-size: 2em;
+  color: rgb(194, 228, 169);
+}
+
+
+.flex_trama {
+  text-align: center; 
+  padding: 3%;
+  }
+
+.foto_trama {
+  width: 90%; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.texto_trama {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.palabras-destacadas {
+  color: rgb(147, 139, 211);
+}
+
+.mensaje-espejos {
+  display: none;
+}
+
+.flex_personajes {          
+  text-align: center; 
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_personajes h3{
+  font-size: 1.1em;
+}
+
+.textos_personajes {
+  margin-top: 5%;
+}
+
+.Alicia {
+  margin: 5%;
+  margin-top: 15%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgba(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Alicia h3 {
+  text-align: center;
+  color: rgb(194, 228, 169);
+}
+
+.Sombrerero {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Sombrerero h3 {
+  text-align: center;
+  color: rgb(194, 228, 169);
+}
+
+.Conejo {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Conejo h3 {
+  text-align: center;
+  color: rgb(194, 228, 169);
+}
+
+.Reina_roja {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Reina_roja h3 {
+  text-align: center;
+  color: rgb(194, 228, 169);
+}
+
+.Gato {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Gato h3 {
+  text-align: center;
+  color: rgb(194, 228, 169);
+}
+
+.Reina_blanca {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Reina_blanca h3 {
+  text-align: center;
+  color: rgb(194, 228, 169);
+}
+
+.actores {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fotos_personajes {
+  width: 100%;
+}
+
+.fotos_opiniones {
+  width: 25px;
+  border-radius: 50px;
+}
+
+.flex_opiniones {
+  text-align: center; 
+  padding: 3%;
+}
+
+.foto_nombre {
+  display: flex;  
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 50%;
+}
+
+.opinion1 {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.opinion2 {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.opinion3 {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.opinion4 {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.opinion5 {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.opinion6 {
+  margin: 5%;
+  text-align: start;
+  padding: 5%;  
+  background-color: rgb(39, 35, 72);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex_opiniones h3 {
+  color: rgb(194, 228, 169);
+  font-weight: 200;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(39, 35, 72);
+  color: aliceblue;
+  padding: 10%;
+  font-size: 0.8em;
+  text-align: center;
+} 
+
+.fotos_logos {
+ width: 10%;
+}
+
+#mas {
+  display: none; 
+}
+
+#mas:target {
+  display: block;
+}
+
+#mas a {
+  display: none; 
+}
+
+#mas:target a {
+  display: inline; 
+} 
+
+.boton_mas_menos {
+  color: rgb(194, 228, 169);
+  text-decoration: none;
+}
+
+.otro_font {
+  margin-top: 10px;
+  font-family: "Mountains of Christmas", serif;
+  font-style: normal;
+  font-size: 2em;
+  color: rgb(194, 228, 169);
+}
+
+.flex_creditos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;      
+  padding: 10%;
+  font-size: 0.8em;
+  font-weight: 200;
+  width: 100%;
+}
+
+.flex_creditos p {
+  color: rgb(194, 228, 169);
+}
+
+.logo_tb {
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  #banner {
+    background-image: url(imagenes_tbmovies/banner/banner_tablet.jpg);
+    height: 40vw; 
+    max-width: 100%;
+  }
+
+  .ver_pelicula {
+    padding: 2%;
+  }
+
+  .titulos_secciones {
+    margin: 3%;
+    font-family: "Mountains of Christmas", serif;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(194, 228, 169);
+  }
+
+  .flex_trama {
+    text-align: center; 
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  }
+
+  .foto_trama {
+    padding-top: 5%;
+    width: 90%; 
+  }
+
+  .texto_trama {
+    margin: 5%;
+    text-align: start;
+    padding: 5%;  
+    background-color: rgb(39, 35, 72);
+    border-radius: 10px;
+  }
+
+  .titulo_personajes {
+    margin-top: -15%;
+    font-family: "Mountains of Christmas", serif;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(194, 228, 169);
+  }
+
+  .flex_personajes {
+    text-align: center; 
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  }
+
+  .personajes {  
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: top;
+  }
+
+  .flex_personajes h3{
+    font-size: 1.1em;
+  }
+
+  .textos_personajes {
+    margin-top: 5%;
+  }
+
+  .Alicia {
+    margin: 5%;
+    text-align: start;
+    padding: 5%;  
+    background-color: rgba(39, 35, 72);
+    border-radius: 10px;
+  }
+
+  .flex_opiniones {
+    text-align: center; 
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  } 
+
+  .opiniones {
+    padding-top: 3%;
+  }
+
+  .flex_creditos {
+    display: flex;
+    text-align: center; 
+    padding: 10%;
+    font-size: 0.8em;
+    font-weight: 200;
+    width: 100%;
+  }
+
+  .fotos_logos {
+    width: 7%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #banner {
+    background-image: url(imagenes_tbmovies/banner/banner.jpg);
+    height: 30vw; 
+    max-width: 100%;
+  }
+
+  .ver_pelicula {
+    padding: 1%;
+  }
+
+  .ver_pelicula:hover {
+    transform: scale(1.03);
+  }
+
+  .titulos_secciones {
+    margin-bottom: 3%;
+    font-family: "Mountains of Christmas", serif;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(194, 228, 169);
+  }
+
+.flex_trama {
+    text-align: center; 
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+}
+
+  .trama_img_texto {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    align-items: center;
+  }
+
+  .trama_img_texto div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foto_trama {
+    width: 100%;
+    height: 50%;
+  }
+
+  .foto_trama:hover {
+    transform: scale(1.03);
+  }
+
+  .texto_trama {
+    flex: 1;
+    height: 50%;
+    margin: 0;  
+    padding: 4%;   
+    text-align: start;
+    background-color: rgb(39, 35, 72);
+    border-radius: 10px;
+  }
+
+  .texto_trama:hover {
+     transform: scale(1.03);
+  }
+
+  .titulo_personajes {
+    margin-top: -15%;
+    font-family: "Mountains of Christmas", serif;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(194, 228, 169);
+  }
+
+  .mensaje-espejos {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 5%;
+  }
+
+  .flex_personajes {
+    text-align: center; 
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  }
+
+  .personajes {  
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: top;
+  }
+
+  .flex_personajes h3{
+    font-size: 1.1em;
+  }
+
+  .textos_personajes {
+    margin-top: 5%;
+  }
+
+  .Alicia {
+    margin: 5%;
+    text-align: start;
+    padding: 5%;  
+    background-color: rgba(39, 35, 72);
+    border-radius: 10px;
+  }
+
+  .Alicia:hover {
+    transform: scale(1.03);
+  }
+
+  .Sombrerero:hover {
+    transform: scale(1.03);
+  }
+
+  .Conejo:hover {
+    transform: scale(1.03);
+  }
+
+  .Reina_roja:hover {
+    transform: scale(1.03);
+  }
+
+  .Gato:hover {
+    transform: scale(1.03);
+  }
+
+  .Reina_blanca:hover{
+    transform: scale(1.03);
+  }
+
+  .flex_opiniones {
+    text-align: center; 
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  }
+
+  .opiniones {
+    padding-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: top;
+  }
+
+  .flex_creditos {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 10%;
+    font-size: 0.8em;
+    font-weight: 200;
+    width: 100%;
+  }
+
+  .fotos_logos {
+    width: 5%;
+  }
+
+  #imagen_alicia:hover {
+    content: url(imagenes_tbmovies/perosnajes2/alicia_compu.png);
+  }
+
+  #imagen_sombrerero:hover {
+    content: url(imagenes_tbmovies/perosnajes2/sombrerero_compu.png);
+  }
+
+  #imagen_conejo:hover {
+    content: url(imagenes_tbmovies/perosnajes2/conejo_compu.png);
+  }
+
+  #imagen_roja:hover {
+    content: url(imagenes_tbmovies/perosnajes2/roja_compu.png);
+  }
+
+  #imagen_gato:hover {
+    content: url(imagenes_tbmovies/perosnajes2/gato_compu.png);
+  }
+
+  #imagen_blanca:hover {
+    content: url(imagenes_tbmovies/perosnajes2/blanca_compu.png);
+  }
+
+  .opinion1:hover {
+    transform: scale(1.03);
+  }
+  .opinion2:hover {
+    transform: scale(1.03);
+  }
+  .opinion3:hover {
+    transform: scale(1.03);
+  }
+  .opinion4:hover {
+    transform: scale(1.03);
+  }
+  .opinion5:hover {
+    transform: scale(1.03);
+  }
+  .opinion6:hover {
+    transform: scale(1.03);
+  }
+
+  .fotos_logos:hover {
+    transform: scale(1.03);
+  }
+}
